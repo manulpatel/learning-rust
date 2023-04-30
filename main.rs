@@ -34,3 +34,25 @@ fn main() {
 //let my_arr_slice: &[usize] = &my_arr[0..3]; // [1, 2, 3]
 //The [T; n] notation is used to create an array of n elements of type T.
 
+//Chars
+//char==Unicode Scalar Value (USV), E.g. U+221E for inf
+//String==array of chars 
+//let my_str: &str = "Hello, world!";
+//let collection_of_chars: &str = my_str.chars().as_str();
+
+//Numbers
+//Unsigned Int (positive whole nos.): u8, u16, u32, u64, u128
+//Signed Int (+ve and -ve whole nos.): i8, i16, i32, i64, i128
+//Floating Point Numbers (+ve adn -ve fractions): f32, f64
+
+//Structs
+//Struct=custom data type used to group related data
+//struct String {
+//  vec: Vec<u8>,
+//}
+//vec=dynamically sized array
+//Instance of struc is declared by giving values to the fields: 
+// struct MyStruct {
+//   field_1: u8,
+// }
+//let my_struct = MyStruct { field_1: 0, };
