@@ -56,3 +56,27 @@ fn main() {
 //   field_1: u8,
 // }
 //let my_struct = MyStruct { field_1: 0, };
+
+//Enums
+//Act as type as well as values
+// enum MyErrors {
+//     BrainTooTired,
+//     TimeOfDay(String)
+//     CoffeeCupEmpty,
+//   }
+  
+//   fn work() -> Result<(), MyErrors> { // Result is also an enum
+//     if state == "missing semi-colon" {
+//       Err(MyErrors::BrainTooTired)
+//     } else if state == "06:00" {
+//       Err(MyErrors::TimeOfDay("It's too early to work".to_string()))
+//     } else if state == "22:00" {
+//       Err(MyErrors::TimeOfDay("It's too late to work".to_string()))
+//     } else if state == "empty" {
+//       Err(MyErrors::CoffeeCupEmpty)
+//     } else {
+//       Ok(())
+//     }
+//   }
+
+
