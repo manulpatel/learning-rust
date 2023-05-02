@@ -79,4 +79,25 @@ fn main() {
 //     }
 //   }
 
+//Macros
+//Similar to functions
+//Piece of code which writes other code
+//Diff with functions: 1)calling with (!) 2)can take variable number of args
+//println!("Hello {}!",mystr);
+//panic!("This is an error.")
+
+//Ownership
+//Each value has a variable as its owner.
+//Only one onwer at a time.
+//When the owner goes out of scope, the value will be dropped.
+//By above 3 rules Rust prevents need of garbage collector and not require memory management explicitly.
+// fn main() { // first_string is not declared yet -> has no value
+//     let first_string = String::from("freeCodeCamp"); // first_string is now owner of the value "freeCodeCamp"
+//     let second_string = first_string; // second_string takes ownership of the value "freeCodeCamp"
+       
+//     println!("Hello, {}!", first_string); // first_string is NOT valid, because the value was moved to second_string
+//   }
+//To solve above compile time error: let second_string: &String = &first_string; // first_string is still the owner of the value "freeCodeCamp"
+
+
 
