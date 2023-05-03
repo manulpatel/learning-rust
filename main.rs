@@ -4,6 +4,11 @@ fn main() {
 
 //NOTES
 
+
+//rustc main.rs
+//./main
+// In windows .pdb file is generated which contains debugging info.
+
 //Variables
 //let,const,static (Use mut to make mutable)
 //Rust is statically typed;So need to explicilty decalre type of varible except using 'let'.
